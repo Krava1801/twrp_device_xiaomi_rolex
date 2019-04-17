@@ -22,4 +22,7 @@ $(call inherit-product, device/xiaomi/rolex/full_rolex.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
+# Allow Missing Dependencies
+ALLOW_MISSING_DEPENDENCIES=true
+
 PRODUCT_NAME := omni_rolex
